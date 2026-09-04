@@ -1,0 +1,98 @@
+{
+  // -----------------------------------------------------
+  // UI & WORKSPACE (Minimalist Focus)
+  // -----------------------------------------------------
+  "workbench.startupEditor": "none",
+  "update.showReleaseNotes": false,
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "bottom",
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "window.commandCenter": false,
+  "breadcrumbs.enabled": false,
+  "workbench.tree.indent": 20,
+  "workbench.editor.showTabs": "multiple", // Kept tabs enabled
+
+  // -----------------------------------------------------
+  // THEMING
+  // -----------------------------------------------------
+  "workbench.colorTheme": "React Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "macos-modern",
+
+  // -----------------------------------------------------
+  // EDITOR & TYPOGRAPHY
+  // -----------------------------------------------------
+  "editor.fontFamily": "'Iosevka NF', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 28,
+  "editor.padding.top": 16,
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "editor.allowVariableFontsInAccessibilityMode": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?", // Smarter word selection
+
+  // -----------------------------------------------------
+  // SILENCE THE NOISE (Zen Modifications)
+  // -----------------------------------------------------
+  "editor.hover.delay": 1500, // Stops doc popups from flashing instantly
+  "editor.matchBrackets": "never",
+  "editor.renderLineHighlight": "none",
+  "editor.guides.indentation": false,
+
+  // -----------------------------------------------------
+  // NAVIGATION (Faster "Go to Definition")
+  // -----------------------------------------------------
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+
+  // -----------------------------------------------------
+  // FORMATTING & FILE MANAGEMENT
+  // -----------------------------------------------------
+  "editor.tabSize": 6, // Consider dropping to 4 if collaborating on projects
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+
+  // -----------------------------------------------------
+  // MANUAL CODING (Ghost Text Disabled)
+  // -----------------------------------------------------
+  "editor.inlineSuggest.enabled": false,
+  "editor.suggest.showInlineDetails": false,
+  "editor.suggestSelection": "first",
+
+  // -----------------------------------------------------
+  // TERMINAL
+  // -----------------------------------------------------
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+  // -----------------------------------------------------
+  // CODE RUNNER
+  // -----------------------------------------------------
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+  },
+
+  // -----------------------------------------------------
+  // CUSTOM UI CSS
+  // -----------------------------------------------------
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/Swapnadeep/.config/VisualStudioCode.css",
+    "file:///C:/Users/Swapnadeep/.config/VisualStudioCode.js",
+  ],
+}
