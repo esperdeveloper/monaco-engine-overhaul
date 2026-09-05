@@ -456,17 +456,16 @@
 .modern-ui-notifications-dialogs.monaco-workbench
   .notifications-list-container
   .notification-list-item {
-  padding: 10px 10px 18px 10px !important;
   backdrop-filter: blur(3px) !important;
 }
 
 .monaco-workbench
   .notifications-list-container
-  .notification-list-item.expanded
+  .notification-list-item
   .notification-list-item-message {
   font-family: var(--farlight-font) !important;
-  font-size: 12px;
-  text-transform: lowercase;
+  font-size: 14px !important;
+  text-transform: lowercase !important;
 }
 
 .notification-list-item-source {
